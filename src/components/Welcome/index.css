@@ -1,0 +1,46 @@
+.welcome-container {
+  background-color: #1e293b;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Bree Serif';
+}
+
+.title {
+  color: #f0bb03;
+  font-size: 38px;
+  font-weight: 800;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 54px;
+  }
+}
+
+.description {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 200;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 44px;
+  }
+}
+
+.btn {
+  background-color: #ffffff;
+  color: #1e293b;
+  padding: 12px;
+  border-radius: 5px;
+  border-width: 0px;
+  height: 48px;
+  width: 120px;
+  text-align: center;
+}
